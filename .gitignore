@@ -1,0 +1,38 @@
+﻿# Python environments
+.venv/
+**/.venv/
+**/venv/
+**/venv*/
+**/__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Private user data
+/backend/data/
+/backend/user_content/
+/backend/vector_store/
+/backend/embeddings_cache.pkl
+/backend/processed_files.json
+
+# Flutter generated files and browser cache
+/frontend/.dart_tool/
+/frontend/build/
+/frontend/.flutter-plugins
+/frontend/.flutter-plugins-dependencies
+
+# Model weights and packages
+*.pth
+*.safetensors
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
