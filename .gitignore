@@ -36,3 +36,12 @@ frontend/build/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Flutter generated files
+frontend/linux/flutter/ephemeral/
+frontend/macos/Flutter/ephemeral/
+frontend/windows/flutter/ephemeral/
+frontend/ios/Flutter/ephemeral/
+frontend/android/local.properties
+frontend/**/app-debug.apk
+
